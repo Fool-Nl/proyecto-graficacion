@@ -1,0 +1,14 @@
+.navbar-content{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-content a{
+    align-items: center;
+    color: red;
+    text-decoration: none;
+}
+
+.logo-navbar img{
+    width: 50px;
+    height: 50px;
+}
