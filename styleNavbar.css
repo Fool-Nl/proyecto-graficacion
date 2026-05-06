@@ -1,14 +1,31 @@
+.navbar{
+    position: sticky;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    display: flex;
+}
+
+
 .navbar-content{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(10px);
+    
 }
 .navbar-content a{
     align-items: center;
-    color: red;
+    color: rgb(209, 22, 22);
     text-decoration: none;
 }
 
 .logo-navbar img{
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
 }
