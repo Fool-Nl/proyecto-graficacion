@@ -1,10 +1,11 @@
 .navbar{
-    position: sticky;
+    position: fixed;
     top: 0;
     justify-content: center;
     align-items: center;
     width: 100%;
     display: flex;
+    
 }
 
 
@@ -12,7 +13,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 44%;
+    width: 35%;
     padding: 8px 15px;
     border-radius: 20px 0;
     margin-top: 10px;
@@ -21,6 +22,8 @@
     background: #B2B5F7;
     backdrop-filter: blur(30px);
     -webkit-backdrop-filter: blur(30px);
+
+    
     
 }
 .navbar-content a{
@@ -29,19 +32,19 @@
     text-decoration: none;
     font-weight: 400;
     margin:0 10px;
-    font-size: 19px;
+    font-size: 15px;
 }
 
 .navbar-content :hover{
-    color: #bebbbb;
+    
     font-size: 19px;
+    transition: font-size 0.5s ease;
 }
 
 .logo-navbar img{
     width: 70px;
     height: 70px;
     margin-right: 10px;
-    
 }
 
 /*
