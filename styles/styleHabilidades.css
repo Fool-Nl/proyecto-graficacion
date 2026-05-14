@@ -1,0 +1,144 @@
+.habilidades{
+    width: 100%;
+    height: 100vh;
+    
+    background: #B2B5F7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.habilidades-content{
+    width: 70%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+
+    
+    background: rgba(255, 255, 255, 0.2); /* fondo translúcido */
+    backdrop-filter: blur(10px);          /* desenfoque del fondo */
+    -webkit-backdrop-filter: blur(10px);  /* soporte para Safari */
+    border-radius: 12px;                  /* esquinas redondeadas */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* borde suave */
+    padding: 1rem;
+    color: #fff;                          /* texto en blanco para contraste */
+    ;             /* ajuste de posición vertical */
+
+} 
+
+.habilidades-card{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 2.5rem;
+}
+
+.habilidades-card-sobre-mi{
+    display:flex-block;
+    width: 30%;
+    padding: 1rem;
+    background-color:#86b7e8fd;
+    border-radius: 12px;
+
+    border: 1px solid;
+
+    background-image: 
+    linear-gradient(#1e8fff3c 1px, transparent 1px),
+    linear-gradient(90deg, #1e8fff49 1px, transparent 1px);
+
+  /* Espaciado de la cuadrícula */
+  background-size: 40px 40px; 
+    
+}
+
+.habilidades-card-tecnologias{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    
+}
+
+/* From Uiverse.io by kennyotsu */ 
+.card {
+  /* color used to softly clip top and bottom of the .words container */
+  padding: 1rem 2rem;
+  border-radius: 1.25rem;
+}
+
+
+.loader {
+  color: rgb(124, 124, 124);
+  font-weight: 500;
+  font-size: 25px;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 40px;
+  padding: 10px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 8px;
+}
+
+.words {
+  overflow: hidden;
+  position: relative;
+}
+
+
+.word {
+  display: block;
+  height: 100%;
+  padding-left: 6px;
+  color: #956afa;
+  animation: spin_4991 4s infinite;
+}
+
+@keyframes spin_4991 {
+  10% {
+    -webkit-transform: translateY(-102%);
+    transform: translateY(-102%);
+  }
+
+  25% {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+
+  35% {
+    -webkit-transform: translateY(-202%);
+    transform: translateY(-202%);
+  }
+
+  50% {
+    -webkit-transform: translateY(-200%);
+    transform: translateY(-200%);
+  }
+
+  60% {
+    -webkit-transform: translateY(-302%);
+    transform: translateY(-302%);
+  }
+
+  75% {
+    -webkit-transform: translateY(-300%);
+    transform: translateY(-300%);
+  }
+
+  85% {
+    -webkit-transform: translateY(-402%);
+    transform: translateY(-402%);
+  }
+
+  100% {
+    -webkit-transform: translateY(-400%);
+    transform: translateY(-400%);
+  }
+}
+
